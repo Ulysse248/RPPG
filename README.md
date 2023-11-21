@@ -13,6 +13,8 @@ This repository marks the culmination of my internship journey at **Norbert Heal
 ## Usage
 To use this repository:
 
+You will need a video of your face of around 10 seconds
+
 Clone or download the repository to your local machine.
 
 Ensure you have the necessary dependencies installed:
