@@ -18,7 +18,7 @@ Navigate to the configs/UlysseConfig.yaml file.
 
 Specify the path to your video in the TEST.DATA.DATA_PATH attribute.
 
-Set the **PREPROCESS* attribute to *True* if it is the first time running the code on the video.
+Set the **PREPROCESS** attribute to *True* if it is the first time running the code on the video.
 
 Run the following command in your terminal:
 ```bash
