@@ -1,5 +1,5 @@
 # rPPG Toolbox - EfficientPhys Prediction
-This repository is a fork of the Ubicomp Lab's rPPG-Toolbox, specifically tailored for utilizing a pretrained version of the EfficientPhys model. The primary purpose of this modification is to apply the pre-trained model on video inputs and overlay the model's predictions onto the video stream.
+This repository is a fork of the Ubicomp Lab's [rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox), specifically tailored for utilizing a pretrained version of the EfficientPhys model. The primary purpose of this modification is to apply the pre-trained model on video inputs and overlay the model's predictions onto the video stream.
 
 *EfficientPhys: Enabling Simple, Fast and Accurate Camera-Based Vitals Measurement
 Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2023)
