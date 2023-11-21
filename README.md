@@ -3,8 +3,7 @@ This repository is a fork of the Ubicomp Lab's rPPG-Toolbox, specifically tailor
 
 *EfficientPhys: Enabling Simple, Fast and Accurate Camera-Based Vitals Measurement
 Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2023)
-Xin Liu, Brial Hill, Ziheng Jiang, Shwetak Patel, Daniel McDuff
-*
+Xin Liu, Brial Hill, Ziheng Jiang, Shwetak Patel, Daniel McDuff*
 
 ## Purpose
 The core objective of this repository is to leverage the power of the EfficientPhys model, which has been trained on the PURE dataset, for real-time or offline prediction of vital signs from video inputs. By incorporating this modified code, users can seamlessly visualize the model's predictions overlaid on top of the provided video input.  
