@@ -1,8 +1,9 @@
 import cv2
 import numpy as np
 
+firstid = 5
 def boxidx(idx, val):
-    rg = 3
+    rg = firstid
     return list(range(idx-rg, idx+rg)), list(range(val-rg, val+rg))
 
 def output(signal, video_path):
@@ -20,11 +21,11 @@ def output(signal, video_path):
     peak_to_peak = max(signal) - min(signal)
     mean_sig = np.mean(signal)
     signal = np.array(signal)
-    l=200
+    l=150
     new_signal = l/peak_to_peak*(signal - mean_sig) + height//2
     flag = True
     signal_on_frames = []
-    idx = 3
+    idx = firstid
     previdx = []
     preval = []
 
