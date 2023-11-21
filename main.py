@@ -9,7 +9,7 @@ import torch
 from config import get_config
 from dataset import data_loader
 from dataset.data_loader import UlysseLoader
-from testoverlap import output
+from video import output
 from neural_methods import trainer
 from torch.utils.data import DataLoader
 
