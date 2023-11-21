@@ -5,7 +5,7 @@ This repository is a fork of the Ubicomp Lab's rPPG-Toolbox, specifically tailor
 The core objective of this repository is to leverage the power of the EfficientPhys model, which has been trained on the PURE dataset, for real-time or offline prediction of vital signs from video inputs. By incorporating this modified code, users can seamlessly visualize the model's predictions overlaid on top of the provided video input.
 
 ## Usage
-To utilize this repository:
+To use this repository:
 
 Clone or download the repository to your local machine.
 
