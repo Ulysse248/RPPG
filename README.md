@@ -9,7 +9,10 @@ To utilize this repository:
 
 Clone or download the repository to your local machine.
 
-Ensure you have the necessary dependencies installed (mention dependencies here, if any).
+Ensure you have the necessary dependencies installed:
+```bash
+pip install -r reqs.txt
+```
 
 Navigate to the configs/UlysseConfig.yaml file.
 
