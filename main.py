@@ -10,6 +10,7 @@ from config import get_config
 from dataset import data_loader
 from dataset.data_loader import UlysseLoader
 from video import output
+from create_bvp import create_fake_bvp
 from neural_methods import trainer
 from torch.utils.data import DataLoader
 
@@ -76,13 +77,16 @@ if __name__ == "__main__":
     data_loader_dict = dict() # dictionary of data loaders 
 
     if config.TOOLBOX_MODE == "only_test":
+        #create fake bvp
+        video_path = glob.glob(config.TEST.DATA.DATA_PATH + '*.MOV')[0]
+        create_fake_bvp(video_path)
         # test_loader
         if config.TEST.DATA.DATASET == "Ulysse":
             test_loader = UlysseLoader.UlysseLoader
         else:
             raise ValueError("Unsupported dataset! Currently supporting Ulysse \
                                 (custom dataset for just 1 video).")
-        
+
         if config.TOOLBOX_MODE == "train_and_test" and config.TEST.USE_LAST_EPOCH:
             print("Testing uses last epoch, validation dataset is not required.", end='\n\n')   
 
